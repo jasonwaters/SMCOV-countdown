@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('media/MyriadPro-Cond.eot');
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('media/MyriadPro-Cond.otf');
+}
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  background: #1dafed;
+}
+#logo {
+  background: url('media/logo.png') no-repeat;
+  width: 450px;
+  height: 89px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+#countbox, #countbox-labels {
+  font-family: "Myriad Pro", Helvetica, sans-serif;
+  width: 434px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#countbox {
+  margin-top: 25px;
+  color: #fff;
+  font-size: 70px;
+}
+#countbox .flip {
+  float: left;
+  text-align: center;
+  background: url('media/flip.png') no-repeat;
+  margin: 0 7px;
+  height: 89px;
+  width: 94px;
+  z-index: 1;
+}
+#countbox .flip div.overlay {
+  background: url(media/flip_gradient.png) no-repeat;
+  position: absolute;
+  display: block;
+  height: 57px;
+  width: 94px;
+}
+#countbox-labels {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#countbox-labels .label {
+  text-align: center;
+  width: 94px;
+  margin: 0 6px;
+  display: inline-block;
+}
